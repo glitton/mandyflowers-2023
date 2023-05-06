@@ -130,7 +130,7 @@ ul {
   padding: 0;
 }
 img {
-  width: 50%;
+  /* width: 50%; */
   display: block;
   object-fit: cover;
 }
@@ -140,7 +140,7 @@ img {
 .btn {
   cursor: pointer;
   color: var(--clr-white);
-  background: var(--primary-500);
+  background: var(--primary-background-7);
   border: transparent;
   border-radius: var(--border-radius);
   letter-spacing: var(--letter-spacing);
@@ -165,7 +165,20 @@ img {
 .btn-block {
   width: 100%;
 }
-
+/* section */
+.section {
+  padding: 5rem 0;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
 /* loading */
 
 @keyframes spinner {
@@ -237,6 +250,16 @@ Navbar
   font-size: 2rem;
   cursor: pointer;
 }
+/* fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary-background-1);
+  z-index: 2;
+  box-shadow: var(--shadow-1);
+}
 @media screen and (min-width: 768px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -294,6 +317,9 @@ Sidebar
   transition: var(--transition);
   transform: translateX(-100%);
 }
+.show-sidebar {
+  transform: translateX(0);
+}
 .sidebar-links {
   text-align: center;
 }
@@ -323,3 +349,9 @@ Sidebar
 .close-btn:hover {
   color: var(--clr-links);
 }
+
+/* 
+=============
+Hero
+=============
+*/
