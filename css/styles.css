@@ -253,12 +253,12 @@ Hero
   margin: 0 auto;
   border: 3px solid var(--clr-primary-5);
   position: relative;
-  top: 3rem;
+  top: 5rem;
   border-radius: var(--border-radius);
 }
 .hero-info {
   position: relative;
-  top: 4rem;
+  top: 6rem;
   text-align: center;
 }
 .hero-info h3 {
