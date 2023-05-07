@@ -206,10 +206,11 @@ Navbar
 /* .nav-links {
   display: none;
 } */
+
 .nav-title {
   text-align: center;
   background: var(--hero-cordovan-5);
-  padding: 0.5rem 0;
+  padding: 1.5rem 0;
 }
 .nav-title h1 {
   text-transform: uppercase;
@@ -285,7 +286,17 @@ Footer
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 3rem;
+  flex-direction: column;
+  text-align: center;
   background: var(--clr-primary-1);
+  text-transform: capitalize;
+}
+.footer-name {
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 992px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
