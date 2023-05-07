@@ -58,8 +58,8 @@ html {
   --small-text: 0.8em;
 
   /* rest of the vars */
-  --text-color: var(--grey-900);
-  --border-radius: 0.25rem;
+  --text-color: var(--grey-800);
+  --border-radius: 0.3rem;
   --letter-spacing: 1px;
   --transition: 0.3s ease-in-out all;
   --max-width: 1170px;
@@ -261,10 +261,10 @@ Navbar
   box-shadow: var(--shadow-1);
 }
 @media screen and (min-width: 768px) {
-  body {
+  /* body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../images/main-background.jpg") center/cover no-repeat fixed;
-  }
+  } */
   .nav {
     background: var(--primary-background-1);
   }
@@ -355,3 +355,29 @@ Sidebar
 Hero
 =============
 */
+.hero {
+  background: url("../images/hero-background.jpg") center/cover no-repeat fixed;
+}
+.hero-img img {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+  position: relative;
+  top: 2rem;
+}
+.hero-info {
+  position: relative;
+  top: 2rem;
+  text-align: center;
+}
+.hero-info h2 {
+  margin-bottom: 0;
+  color: var(--text-color);
+  text-emphasis: ;
+}
+.hero-info p {
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-color);
+}
