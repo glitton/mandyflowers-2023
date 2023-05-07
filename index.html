@@ -28,86 +28,59 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- navbar -->
-    <nav class="nav" id="nav">
-      <div class="nav-center">
-        <!-- nav header -->
-        <div class="nav-header" id="home">
-          <h3 class="nav-logo">mandy flowers</h3>
-          <button class="nav-btn" id="nav-btn">
-            <i class="fa-solid fa-bars"></i>
-          </button>
+    <!-- nav -->
+    <section class="section-center">
+      <nav>
+        <div class="nav-container">
+          <div class="nav-title">
+            <h1>mandy flowers</h1>
+            <h2>jazz acoustic bass</h2>
+          </div>
+          <ul class="nav-links-container">
+            <li class="nav-link"><a href="home">home</a></li>
+            <li class="nav-link"><a href="performance">performance</a></li>
+            <li class="nav-link"><a href="teaching">teaching</a></li>
+            <li class="nav-link"><a href="about">about</a></li>
+            <li class="nav-link"><a href="contact">contact</a></li>
+          </ul>
         </div>
-        <!-- nav links -->
-        <ul class="nav-links">
-          <li>
-            <a href="#home">home</a>
-          </li>
-          <li>
-            <a href="performance">performance</a>
-          </li>
-          <li>
-            <a href="teaching">teaching</a>
-          </li>
-          <li>
-            <a href="about">about</a>
-          </li>
-          <li>
-            <a href="contact">contact</a>
-          </li>
-        </ul>
+      </nav>
+      <!-- end of nav -->
+      <!-- hero -->
+      <div class="hero-container">
+        <div class="hero-img">
+          <img src="./images/hero-main.jpg" alt="mandy flowers" />
+        </div>
+        <div class="hero-info">
+          <h3>san francisco bay area</h3>
+          <div class="hero-contact">
+            <p>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              mandyrflowers@gmail.com
+            </p>
+            <p>
+              <span><i class="fa-solid fa-phone-flip"></i></span>
+              landline: (650) 616 - 9108
+            </p>
+          </div>
+        </div>
       </div>
-    </nav>
-    <!-- end of navbar -->
-    <!-- sidebar -->
-    <aside class="sidebar" id="sidebar">
-      <div>
-        <button class="close-btn" id="close-btn">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <!-- nav links -->
-        <ul class="sidebar-links">
-          <li>
-            <a href="#home">home</a>
-          </li>
-          <li>
-            <a href="performance">performance</a>
-          </li>
-          <li>
-            <a href="teaching">teaching</a>
-          </li>
-          <li>
-            <a href="about">about</a>
-          </li>
-          <li>
-            <a href="contact">contact</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-    <!-- end of sidebar -->
-    <!-- hero -->
-    <header class="hero">
-      <div class="section-center hero-center">
-        <article class="hero-img">
-          <img
-            src="./images/hero-main.jpg"
-            alt="mandy flowers"
-            class="hero-photo"
-          />
-        </article>
-        <article class="hero-info">
-          <h2>Jazz Acoustic Bass</h2>
-          <h4>San Francisco Bay Area</h4>
-          <p>mandyrflowers@gmail.com</p>
-          <p>
-            voice only (650) 616 -9408
-            <span><i class="fa-solid fa-thumbs-up"></i></span>
-          </p>
-        </article>
-      </div>
-    </header>
+    </section>
     <!-- end of hero -->
+    <!-- footer -->
+    <footer class="footer section-center">
+      <small
+        >&copy; mandy flowers
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </small>
+      <small
+        ><span><i class="fa-solid fa-camera"></i></span> and
+        <span><i class="fa-solid fa-code"></i></span> by generosa litton</small
+      >
+    </footer>
+    <!-- end of footer -->
     <!-- javascript -->
     <script src="./js/app.js"></script>
   </body>
