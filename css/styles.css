@@ -5,7 +5,7 @@
 }
 
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Syne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Syne&display=swap");
 
 html {
   font-size: 100%;
@@ -44,7 +44,7 @@ html {
   --clr-links: #e92d05;
 
   --heading-font: "Arvo", serif;
-  --body-font: "Syne", sans-serif;
+  --body-font: "Ubuntu", sans-serif;
   --small-text: 0.8em;
 
   /* rest of the vars */
@@ -215,6 +215,7 @@ Navbar
 .nav-title h1 {
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 5rem;
 }
 .nav-title h1,
 .nav-title h2 {
@@ -260,6 +261,7 @@ Hero
 .hero-btn {
   text-transform: uppercase;
   letter-spacing: var(--text-letter-spacing);
+  margin: 1rem 0;
   padding: 0.5;
 }
 .hero-btn a {
@@ -276,7 +278,8 @@ Hero
 }
 .hero-info h3 {
   letter-spacing: var(--text-letter-spacing);
-  margin-bottom: 0.5rem;
+  max-width: 65%;
+  margin: auto;
 }
 .hero-contact {
   max-width: 65%;
