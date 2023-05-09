@@ -392,13 +392,17 @@ Performance
   text-align: center;
 }
 .performance-videos {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  /* row-gap: 2rem;
-  height: 5rem; */
-  /* max-width: 500px; */
-  /* max-height: 700px; */
+  max-width: 65%;
+  margin: 4rem auto 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.video-item {
+  margin-bottom: 1rem;
+  aspect-ratio: 16 / 9;
+  width: 85%;
+  border: 3px solid var(--clr-primary-5);
+  border-radius: var(--border-radius);
 }
 
 /*
