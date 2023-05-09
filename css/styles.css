@@ -191,7 +191,7 @@ img {
   margin-bottom: 0.5rem;
 }
 .title-underline {
-  background: var(--hero-cordovan-3);
+  background: var(--hero-cordovan-4);
   width: 7rem;
   height: 0.25rem;
   margin: 0 auto;
@@ -367,6 +367,42 @@ Hero
 
 /*
 ========== 
+Performance
+==========
+*/
+
+.performance-container {
+  background: var(--clr-primary-1);
+  height: 100%;
+  margin: 0 auto;
+}
+.performance-title {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.title-underline {
+  margin-bottom: 1rem;
+}
+.performance-info {
+  margin-bottom: 0;
+  max-width: 85%;
+  margin: 0 auto;
+  letter-spacing: var(--text-letter-spacing);
+  text-align: center;
+}
+.performance-videos {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 2rem;
+  height: 5rem; */
+  /* max-width: 500px; */
+  /* max-height: 700px; */
+}
+
+/*
+========== 
 Contact
 ==========
 */
@@ -383,6 +419,9 @@ Contact
 }
 .contact-email {
   margin-bottom: 0;
+}
+.contact-email a {
+  color: var(--clr-primary-6);
 }
 .contact-phone {
   margin-top: 10px;
