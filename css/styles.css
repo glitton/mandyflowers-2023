@@ -343,6 +343,7 @@ Hero
   margin: 0 auto;
   border: 3px solid var(--clr-primary-5);
   border-radius: var(--border-radius);
+  object-fit: contain;
 }
 .hero-performance {
   padding: 0;
