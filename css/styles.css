@@ -262,6 +262,20 @@ Navbar
 .sidebar {
   display: none;
 }
+
+@media screen and (max-width: 510px) {
+  .nav-title h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav-title h1 {
+    font-size: 2rem;
+  }
+  .nav-title h2 {
+    font-size: 2rem;
+  }
+}
 /* 
 =========================
 Sidebar for Small screens
