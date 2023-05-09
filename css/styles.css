@@ -296,7 +296,27 @@ Hero
     height: 330px;
   }
 }
-
+/*
+========== 
+Contact
+==========
+*/
+.contact-container {
+  text-align: center;
+}
+.contact-title {
+  letter-spacing: var(--text-letter-spacing);
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.fa-phone-flip,
+.fa-envelope {
+  color: var(--moss-green-4);
+}
 /*
 ========== 
 Footer
@@ -314,9 +334,3 @@ Footer
 .footer-name {
   padding-bottom: 1rem;
 }
-
-/*
-========== 
-Contact
-==========
-*/
