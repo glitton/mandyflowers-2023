@@ -116,6 +116,7 @@ small,
 }
 a {
   text-decoration: none;
+  color: var(--clr-links);
 }
 ul {
   list-style-type: none;
@@ -397,6 +398,7 @@ Performance
   text-align: center;
   padding-top: 2rem;
   margin-bottom: 0.5rem;
+  letter-spacing: var(--header-letter-spacing);
 }
 .title-underline {
   margin-bottom: 1rem;
