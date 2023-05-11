@@ -288,6 +288,8 @@ Navbar
   position: fixed;
   z-index: 2;
   box-shadow: var(--shadow-1);
+  left: 0;
+  right: 0;
 }
 /* 
 =========================
