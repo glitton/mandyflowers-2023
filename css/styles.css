@@ -507,9 +507,13 @@ Teaching
 }
 /*
 ========================== 
-CD in About
+About
 ==========================
 */
+
+.about-link:hover {
+  color: var(--moss-green-4);
+}
 .cd-main {
   display: grid;
   grid-template-columns: auto auto;
@@ -546,6 +550,12 @@ Contact
 }
 .contact-email a {
   color: var(--clr-primary-6);
+}
+.contact-email a:hover {
+  color: var(--clr-primary-1);
+  box-shadow: var(--shadow-1);
+  background: var(--hero-cordovan-3);
+  padding: 0.5rem;
 }
 .contact-phone {
   margin-top: 10px;
