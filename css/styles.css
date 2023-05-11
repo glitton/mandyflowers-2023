@@ -47,6 +47,7 @@ html {
   --heading-font: "Arvo", serif;
   --body-font: "Ubuntu", sans-serif;
   --small-text: 0.8em;
+  --testimonials-font: "Just Another Hand", sans-serif;
 
   /* rest of the vars */
   --text-color: var(--clr-primary-6);
@@ -432,7 +433,8 @@ Audio Clips in Performance
 .audio-clips {
   background: var(--clr-primary-1);
 }
-.audio-clip {
+.audio-clip,
+.testimonial-item {
   background: var(--clr-off-white);
   padding: 1.5rem;
   border-radius: var(--border-radius);
@@ -461,8 +463,36 @@ audio {
 }
 
 /*
+============
+Teaching
+============
+*/
+
+/* testimonial-item class shares with audio-clip class */
+
+.testimonial-photo {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.testimonial-text {
+  font-family: var(--testimonials-font);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 992px) {
+  .testimonial-list {
+    display: flex;
+    /* margin: 1rem; */
+  }
+  .testimonial-item {
+    margin: 1rem 1.2rem;
+  }
+}
+/*
 ========================== 
-CD in Performance
+CD in About
 ==========================
 */
 .cd-main {
