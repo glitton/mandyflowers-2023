@@ -413,7 +413,7 @@ Performance
 }
 .performance-videos {
   max-width: 65%;
-  margin: 4rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   padding: 0;
   text-align: center;
 }
@@ -480,6 +480,10 @@ Teaching
   font-family: var(--testimonials-font);
   font-size: 1.5rem;
   letter-spacing: 1px;
+}
+.testimonial-item:hover {
+  background: var(--hero-cordovan-1);
+  box-shadow: var(--shadow-3);
 }
 @media screen and (min-width: 992px) {
   .testimonial-list {
