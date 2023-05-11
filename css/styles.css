@@ -235,7 +235,7 @@ Navbar
   transition: var(--transition);
   letter-spacing: var(--header-letter-spacing);
 }
-.active,
+
 .nav-link a:hover {
   color: var(--hero-cordovan-6);
   font-weight: 600;
@@ -250,6 +250,7 @@ Navbar
   .nav-container {
     height: 10rem;
     display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     transition: var(--transition);
   }
@@ -281,6 +282,15 @@ Navbar
   }
 }
 
+/* fixed navbar */
+
+.navbar-fixed {
+  position: fixed;
+  margin: 0 auto;
+  z-index: 2;
+  width: 960px;
+  box-shadow: var(--shadow-1);
+}
 /* 
 =========================
 Sidebar for Small screens
@@ -525,11 +535,11 @@ Contact
 }
 .contact-title {
   letter-spacing: var(--text-letter-spacing);
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .contact-info {
-  margin: 0 auto;
-  font-size: 1.1rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
 }
 .contact-email {
   margin-bottom: 0;
@@ -550,6 +560,7 @@ Contact
     width: 70%;
     display: flex;
     margin: 0 auto;
+    margin-top: 3rem;
     justify-content: space-around;
   }
   .contact-phone,
