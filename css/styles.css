@@ -448,7 +448,7 @@ Audio Clips in Performance
   font-weight: bold;
 }
 audio {
-  width: 60%;
+  width: 65%;
 }
 .audio-clip:hover {
   background: var(--hero-cordovan-1);
