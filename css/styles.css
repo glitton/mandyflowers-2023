@@ -250,9 +250,9 @@ Navbar
   .nav-container {
     height: 10rem;
     display: grid;
-    grid-template-columns: 1fr;
     align-items: center;
     transition: var(--transition);
+    margin: 0 auto;
   }
   .nav-btn {
     display: inline-block;
@@ -286,10 +286,10 @@ Navbar
 
 .navbar-fixed {
   position: fixed;
-  margin: 0 auto;
   z-index: 2;
-  width: 960px;
   box-shadow: var(--shadow-1);
+  left: 0;
+  right: 0;
 }
 /* 
 =========================
