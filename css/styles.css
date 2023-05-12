@@ -287,7 +287,6 @@ Navbar
 .navbar-fixed {
   position: fixed;
   z-index: 2;
-  box-shadow: var(--shadow-1);
   left: 0;
   right: 0;
 }
@@ -511,8 +510,13 @@ About
 ==========================
 */
 
-.about-link:hover {
+.about-link {
   color: var(--moss-green-4);
+  font-weight: 500;
+}
+
+.about-link:hover {
+  color: var(--clr-links);
 }
 .cd-main {
   display: grid;
@@ -521,13 +525,22 @@ About
   align-items: center;
   justify-items: center;
   column-gap: 1rem;
-  background: var(--clr-off-white);
+  /* background: var(--clr-off-white); */
+  background: var(--hero-cordovan-1);
+
   margin: 2rem 2rem 0 2rem;
   border-radius: var(--border-radius);
 }
 .cd-text {
   margin: 0;
   text-transform: normal;
+}
+
+/* background */
+
+.background-image {
+  height: 200px;
+  width: auto;
 }
 /*
 ========== 
