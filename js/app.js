@@ -5,7 +5,7 @@ const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
-  console.log(window.scrollY + "px");
+  // console.log(window.scrollY + "px");
   if (window.scrollY > 20) {
     navbar.classList.add("navbar-fixed");
   } else {

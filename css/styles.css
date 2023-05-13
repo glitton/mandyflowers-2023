@@ -637,12 +637,10 @@ Footer
   padding: 4rem 3rem 1.5rem 3rem;
   font-size: 0.75em;
   text-align: center;
-  /* background: var(--hero-cordovan-5); */
 }
 
 .footer-name {
   padding-bottom: 1rem;
-  /* color: var(--clr-primary-2); */
 }
 
 @media screen and (min-width: 772px) {
