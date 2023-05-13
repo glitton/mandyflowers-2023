@@ -293,7 +293,6 @@ Navbar
   z-index: 2;
   left: 0;
   right: 0;
-  top: 0;
 }
 /* 
 =========================
@@ -646,7 +645,6 @@ Footer
 @media screen and (min-width: 772px) {
   .footer-container {
     width: 70%;
-    /* height: 1rem; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
