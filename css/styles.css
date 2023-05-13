@@ -73,7 +73,11 @@ body {
   line-height: 1.75;
   color: var(--text-color);
 }
-
+@media screen and (min-width: 490px) {
+  body {
+    /* height: 779.5px; */
+  }
+}
 p {
   margin-bottom: 1.2rem;
   max-width: 40em;
@@ -289,6 +293,7 @@ Navbar
   z-index: 2;
   left: 0;
   right: 0;
+  top: 0;
 }
 /* 
 =========================
@@ -629,18 +634,21 @@ Footer
   display: block;
   background: var(--clr-primary-1);
   text-transform: capitalize;
-  padding: 4rem 3rem 0 3rem;
+  padding: 4rem 3rem 1.5rem 3rem;
   font-size: 0.75em;
   text-align: center;
+  /* background: var(--hero-cordovan-5); */
 }
 
 .footer-name {
   padding-bottom: 1rem;
+  /* color: var(--clr-primary-2); */
 }
 
 @media screen and (min-width: 772px) {
   .footer-container {
     width: 70%;
+    /* height: 1rem; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
