@@ -392,7 +392,7 @@ Hero
   text-align: center;
   padding-top: 3rem;
 }
-.performance-video {
+.hero-performance-video {
   aspect-ratio: 16 / 9;
   width: 65%;
   height: auto;
@@ -448,7 +448,7 @@ Performance
   text-align: center;
 }
 .performance-videos {
-  width: 65%;
+  width: 70%;
   height: auto;
   margin: 3rem auto 0 auto;
   padding: 0;
@@ -457,7 +457,7 @@ Performance
 .video-item {
   margin-bottom: 1rem;
   aspect-ratio: 16 / 9;
-  width: 85%;
+  width: 92%;
   /* height: 292px; */
   object-fit: cover;
   object-position: 50% 50%;
@@ -665,7 +665,7 @@ Footer
   display: block;
   background: var(--clr-primary-1);
   text-transform: capitalize;
-  padding: 4rem 3rem 1.5rem 3rem;
+  padding: 3rem 3rem 1.5rem 3rem;
   font-size: 0.75em;
   text-align: center;
 }
