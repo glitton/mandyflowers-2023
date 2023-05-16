@@ -521,6 +521,10 @@ Teaching
   height: auto;
   border-radius: 50%;
   margin: 0 auto;
+  transition: var(--transition);
+}
+.testimonial-photo:hover {
+  transform: rotate(360deg);
 }
 .testimonial-text {
   font-family: var(--testimonials-font);
