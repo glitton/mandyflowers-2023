@@ -9,7 +9,6 @@ window.addEventListener("scroll", function () {
   const scrollHeight = window.pageYOffset;
   // get height of navbar, make it fixed when scroll gets past this height
   const navHeight = navbar.getBoundingClientRect().height;
-  // console.log(navHeight);
 
   if (scrollHeight > navHeight) {
     navbar.classList.add("navbar-fixed");
