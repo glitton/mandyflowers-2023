@@ -17,6 +17,18 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// add active class to navbar big screen
+const navLinks = document.querySelectorAll(".link");
+console.log(navLinks.length);
+for (let i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener("click", function () {
+    if (navLinks[i].classList.contains("active")) {
+      console.log(navLinks[i]);
+    } else {
+      console.log("no active class");
+    }
+  });
+}
 // show sidebar
 navBtn.addEventListener("click", function () {
   sidebar.classList.add("show-sidebar");

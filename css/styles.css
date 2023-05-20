@@ -259,6 +259,10 @@ Navbar
   color: var(--hero-cordovan-6);
   font-weight: 600;
 }
+a.active {
+  color: green;
+  font-weight: 600;
+}
 .nav-btn {
   display: none;
 }
