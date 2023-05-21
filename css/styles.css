@@ -259,9 +259,11 @@ Navbar
   color: var(--hero-cordovan-6);
   font-weight: 600;
 }
-a.active {
-  color: green;
+.link[aria-current="active-page"] {
+  color: var(--hero-cordovan-60);
   font-weight: 600;
+  background: var(--clr-primary-1);
+  padding: 0.78rem 0.5rem;
 }
 .nav-btn {
   display: none;

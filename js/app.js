@@ -17,18 +17,15 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// add active class to navbar big screen
+// add active class to navbar big screen using aria attribute
 const navLinks = document.querySelectorAll(".link");
-console.log(navLinks.length);
-for (let i = 0; i < navLinks.length; i++) {
-  navLinks[i].addEventListener("click", function () {
-    if (navLinks[i].classList.contains("active")) {
-      console.log(navLinks[i]);
-    } else {
-      console.log("no active class");
-    }
-  });
-}
+// console.log(navLinks.length);
+navLinks.forEach((navlink) => {
+  if (navlink.href === window.location.href) {
+    navlink.setAttribute("aria-current", "active-page");
+  }
+});
+
 // show sidebar
 navBtn.addEventListener("click", function () {
   sidebar.classList.add("show-sidebar");
