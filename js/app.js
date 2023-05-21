@@ -18,11 +18,19 @@ window.addEventListener("scroll", function () {
 });
 
 // add active class to navbar big screen using aria attribute
+// const navLinks = document.querySelectorAll(".link");
+
+// navLinks.forEach((navlink) => {
+//   if (navlink.href === window.location.href) {
+//     navlink.setAttribute("aria-current", "active-page");
+//   }
+// });
+
+// another version using classList.add active class
 const navLinks = document.querySelectorAll(".link");
-// console.log(navLinks.length);
 navLinks.forEach((navlink) => {
   if (navlink.href === window.location.href) {
-    navlink.setAttribute("aria-current", "active-page");
+    navlink.classList.add("active");
   }
 });
 
